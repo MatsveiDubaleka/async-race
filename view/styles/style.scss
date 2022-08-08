@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color:steelblue;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@import url('./garage.scss');
+@import url('./winners.scss');

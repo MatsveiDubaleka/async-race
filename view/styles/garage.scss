@@ -1,0 +1,30 @@
+
+.title {
+  color:azure;
+  text-align: center;
+}
+
+.btn-container {
+  margin-top: 2.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  width: 100%;
+}
+
+.btn {
+  outline: none;
+  width: 10%;
+  height: 4vh;
+  background-color:bisque;
+  border: 1px solid azure;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.active-btn {
+  background-color:cornflowerblue;
+  color: azure;
+}
