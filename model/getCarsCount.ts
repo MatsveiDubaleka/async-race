@@ -1,4 +1,5 @@
-import { garageTitle } from '../view/garage';
+const garageTitle = document.querySelector('.garage-title') as HTMLElement;
+
 import { getGarageСount } from '../controller/data/getData';
 import { path } from '../controller/data/getData';
 
