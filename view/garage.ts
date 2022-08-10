@@ -96,7 +96,7 @@ garageWrapper.appendChild(garageTitle);
 
 const pageTitle = document.createElement('h4');
 pageTitle.classList.add('page-title');
-pageTitle.textContent = `Page (${pageNumber})`;
+pageTitle.textContent = `Page #${pageNumber}`;
 garageWrapper.appendChild(pageTitle);
 
 export const garageCarWrapper = document.createElement('div');
