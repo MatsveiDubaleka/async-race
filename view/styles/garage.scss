@@ -14,17 +14,197 @@
   width: 100%;
 }
 
-.btn {
-  outline: none;
-  width: 10%;
-  height: 4vh;
-  background-color:bisque;
-  border: 1px solid azure;
-  border-radius: 15px;
-  cursor: pointer;
-}
-
 .active-btn {
   background-color:cornflowerblue;
   color: azure;
+}
+
+.garage-wrapper {
+  width: 100%;
+  margin: 2.5% 0;
+  padding: 0 5%;
+}
+
+.garage-cars {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.garage-title, .page-title {
+  text-align: center;
+  color: rgba(0, 247, 255, 0.9);
+}
+
+.car {
+  margin-top: 5%;
+  width: 100%;
+  height: 25vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  border-bottom: 10px dashed #fff;
+  border-radius: 10px;
+}
+
+.svg-car {
+  position: absolute;
+  bottom: -9%;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+
+/* 13 */
+button {
+  margin: 10px;
+  background-color: #89d8d3;
+background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+  border: none;
+  z-index: 1;
+}
+button:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+   background-color: #4dccc6;
+background-image: linear-gradient(315deg, #4dccc6 0%, #96e4df 74%);
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+button:hover {
+  color: #fff;
+}
+button:hover:after {
+  top: 0;
+  height: 100%;
+}
+button:active {
+  top: 2px;
+}
+
+input[type=text] {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+.destination-start {
+  padding: 5px;
+  color: rgba(57, 221, 24, 1);
+  cursor: pointer;
+}
+
+.destination-end {
+  width: 100%;
+  padding: 5px;
+  color: rgb(221, 24, 24);
+  text-align: right;
+}
+
+.car-name {
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.car-btns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button.btn-race {
+  background-color: rgba(57, 221, 24, 0.8);
+  background-image: none;
+}
+
+button.btn-reset {
+  background-color: rgba(221, 24, 24, 0.8);
+  background-image: none;
+}
+
+input[type="color"] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  height: 2.5em;
+  padding: 0;
+  width: 2.5em;
+}
+
+::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+::-webkit-color-swatch{
+  border: 0;
+  border-radius: 0;
+}
+
+::-moz-color-swatch,
+::-moz-focus-inner{
+  border: 0;
+}
+
+::-moz-focus-inner{
+  padding: 0;
+}
+
+.cars-creation {
+  width: 40%;
+}
+
+.change-car, .generate-car, .race-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-page {
+  background-color: rgba(57, 221, 24, 0.8);
+  background-image: none;
 }
