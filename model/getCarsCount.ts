@@ -1,6 +1,6 @@
 import { garageTitle } from '../view/garage';
-import { getGarageСount } from '../controller/getData';
-import { path } from '../controller/getData';
+import { getGarageСount } from '../controller/data/getData';
+import { path } from '../controller/data/getData';
 
 const getCountCars = async () => {
   const result = await getGarageСount(path.garage);
