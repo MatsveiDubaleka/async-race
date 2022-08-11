@@ -1,3 +1,3 @@
 import './styles/style.scss';
-import './garage.ts';
-import './winners.ts';
+import './createGaragePage.ts';
+import './createWinnersPage.ts';

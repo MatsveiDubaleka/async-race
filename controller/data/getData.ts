@@ -5,7 +5,7 @@ export const path = {
   winners: '/winners',
 }
 
-export const getGarageСount = async (data: string) => {
+export const getData = async (data: string) => {
   const response = await fetch(`${baseUrl}${data}`);
   const result = await response.json();
   return result;

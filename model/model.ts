@@ -1,3 +1,5 @@
-import './deleteCar.ts';
-import './createCarModel.ts';
-import './getCarsCount.ts'
+import './pages/garage/deleteCar'
+import './pages/garage/createCarModel.ts';
+import './pages/garage/getCarsCount.ts'
+import './pages/changePage'
+import './getWinners'
