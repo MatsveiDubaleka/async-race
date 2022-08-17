@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "outDir": "./dist/",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "target": "es2017",
+    "jsx": "react",
+    "allowJs": true,
+    "strict": true
+  },
+  "exclude": ["spec"]
+}
